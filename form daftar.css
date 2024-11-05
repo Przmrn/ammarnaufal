@@ -1,0 +1,56 @@
+body{
+    background-color: #787878;
+}
+
+form{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    background-color: #362dad;
+    border-radius: 10px;
+}
+
+label{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    display: block;
+    color: rgb(249, 246, 246);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #de2222;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.radio-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: #d7215b;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #7e7979;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form daftar.css">
+</head>
+<body>
+    <form action="" method="post">
+        <label for="nama">Nama : </label>
+        <input type="text" name="nama" id="nama" required>
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="nomor">Nomor Telepon : </label>
+        <input type="tel" name="nomor" id="nomor" required>
+
+        <label for="tanggal">Tanggal Lahir : </label>
+        <input type="date" name="tanggal" id="tanggal" required>
+
+        <label for='jenis-kelamin'>Jenis Kelamin :</label>
+        <select id="jenis-kelamin" name="jenis_kelamin">
+            <option value="lk">Laki-laki</option>
+            <option value="pr">Perempuan</option>
+        </select>
+
+        <label>Status :</label>
+        <div class="radio-group">
+            <input type="radio" name="status" id="Pelajar" value="Pelajar">
+            <label for="pelajar">Pelajar</label>
+
+            <input type="radio" name="status" id="pekerja" value="pekerja">
+            <label for="pekerja">Pekerja</label>
+
+            <input type="radio" name="status" id="mahasiswa" value="mahasiswa">
+            <label for="mahasiswa">Mahasiswa</label>
+
+        </div>
+
+        <label for="name">Pesan Atau Komentar :</label>
+        <textarea name="komentar" id="komentar" cols="30" rows="10" placeholder="Tuliskan Pesan Atau Komentar"></textarea>
+
+        <button type="submit">kirim</button>
+    </form>
+</body>
+</html>
